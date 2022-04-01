@@ -2,7 +2,7 @@ int top = -1;
 const int STACKSIZE = 3;
 int stack[3];
 
-void init() {
+void stackInit() {
 	top = -1;
 }
 

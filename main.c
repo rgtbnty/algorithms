@@ -1,6 +1,6 @@
 const int MAX = 10;
 //
-
+//
 #include <stdio.h>
 #include "header.h"
 void p(int q) {
@@ -23,5 +23,4 @@ int main() {
 	//e = binarySearch(list1, 5);
 	printf("%d %d %d %d\n", a, b, c, d); */
 
-	
 } 
