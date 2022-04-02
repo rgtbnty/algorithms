@@ -1,11 +1,16 @@
 const int MAX = 10;
 //
-//
+
+
 #include <stdio.h>
+#include <stdlib.h>
 #include "header.h"
+/*
 void p(int q) {
 	printf("%d\n", q);
 }
+*/
+
 
 int main() {
 	int list[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
