@@ -9,3 +9,4 @@
 #include "binarySearchTree.c"
 #include "bubbleSort.c"
 #include "selectionSort.c"
+#include "insertionSort.c"

@@ -35,6 +35,7 @@ int main() {
 	//e = binarySearch(list1, 5);
 	printf("%d %d %d %d\n", a, b, c, d); */
 	//bubbleSort(so, MAX);
-	selectionSort(so, MAX);
+//	selectionSort(so, MAX);
+	insertionSort(so, MAX);
 	printarr(so, MAX);
 } 
