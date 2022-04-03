@@ -6,3 +6,5 @@
 #include "circularLinkedList.c"
 #include "doublyLinkedList.c"
 #include "tree.c"
+#include "binarySearchTree.c"
+
