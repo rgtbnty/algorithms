@@ -1,5 +1,6 @@
 const int MAX = 10;
 //
+//
 
 
 #include <stdio.h>
@@ -10,12 +11,18 @@ void p(int q) {
 	printf("%d\n", q);
 }
 */
-
+void printarr(int a[], int n) {
+	for (int i = 0; i < n; ++i) {
+		printf("%d ", a[i]);
+	}
+	printf("\n");
+}
 
 int main() {
 	int list[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 	int list1[] = {1, 2, 3, 4, 5};
 	int list2[] = {1, 2, 3, 4};
+	int so[] = {5, 3, 9, 2, 7, 1, 8, 10, 4, 6};
 
 	int result;
 	int want = 4;
@@ -27,19 +34,6 @@ int main() {
 	d = binarySearch(list2, 4);
 	//e = binarySearch(list1, 5);
 	printf("%d %d %d %d\n", a, b, c, d); */
-
-	initDll();
-	printDll();
-	addDll(11);
-	printDll();
-	movePoint(1);
-	printDll();
-	deleteDll();
-	printDll();
-	deleteDll();
-	addDll(21);
-	movePoint(1);
-	addDll(22);
-	addDll(23);
-	printDll();
+	bubbleSort(so, MAX);
+	printarr(so, MAX);
 } 
