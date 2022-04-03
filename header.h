@@ -5,3 +5,4 @@
 #include "linkedList.c"
 #include "circularLinkedList.c"
 #include "doublyLinkedList.c"
+#include "tree.c"
