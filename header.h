@@ -8,3 +8,4 @@
 #include "tree.c"
 #include "binarySearchTree.c"
 #include "bubbleSort.c"
+#include "selectionSort.c"

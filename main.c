@@ -1,7 +1,7 @@
 const int MAX = 10;
 //
 //
-
+//
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -34,6 +34,7 @@ int main() {
 	d = binarySearch(list2, 4);
 	//e = binarySearch(list1, 5);
 	printf("%d %d %d %d\n", a, b, c, d); */
-	bubbleSort(so, MAX);
+	//bubbleSort(so, MAX);
+	selectionSort(so, MAX);
 	printarr(so, MAX);
 } 
