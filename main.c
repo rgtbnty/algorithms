@@ -28,11 +28,18 @@ int main() {
 	//e = binarySearch(list1, 5);
 	printf("%d %d %d %d\n", a, b, c, d); */
 
-	addCll(11);
-//	printCll();
-//	deleteCll();
-	addCll(12);
-	deleteCll();
-	addCll(13);
-	printCll();	
+	initDll();
+	printDll();
+	addDll(11);
+	printDll();
+	movePoint(1);
+	printDll();
+	deleteDll();
+	printDll();
+	deleteDll();
+	addDll(21);
+	movePoint(1);
+	addDll(22);
+	addDll(23);
+	printDll();
 } 

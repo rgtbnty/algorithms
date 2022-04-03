@@ -4,3 +4,4 @@
 #include "queue.c"
 #include "linkedList.c"
 #include "circularLinkedList.c"
+#include "doublyLinkedList.c"
